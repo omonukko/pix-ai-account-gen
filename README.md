@@ -31,9 +31,9 @@ async function createPixAIAccount() {
       
       await sleep(2000);
 
-      logger.info(`Email: ${mail}`);
-      logger.info(`Password: ${pass}`);
-      logger.info(`Token:${JSON.stringify(await pix.viewToken())}`)     
+      console.log(`Email: ${mail}`);
+      console.log(`Password: ${pass}`);
+      console.log(`Token:${JSON.stringify(await pix.viewToken())}`)     
 
       await sleep(1000)
 
