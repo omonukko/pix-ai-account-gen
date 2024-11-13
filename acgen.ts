@@ -1,5 +1,5 @@
 import axios from "axios";
-import { C, Reset } from "../console/logcolor";
+import { C, Reset } from "./logcolor";
 import * as fs from 'fs';
 import path from "path";
 
