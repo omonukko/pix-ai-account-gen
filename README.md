@@ -50,4 +50,6 @@ async function createPixAIAccount() {
   }
 };
 
+createPixAIAccount()
+
 ```
